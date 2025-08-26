@@ -1,13 +1,16 @@
 #function is the block of code that performs specific task
+
+def calculate_total(exp):
+    total = 0
+    for item in exp:
+        total = total + item
+    return total
+
 tom_exp_list = [2100, 3400, 3500]
 joe_exp_list = [200, 500, 700]
 
-total = 0
-for item in tom_exp_list:
-    total = total + item
-print("Tom's total expense:", total)
+toms_total = calculate_total(tom_exp_list)
+joe_total = calculate_total(joe_exp_list)
 
-total = 0
-for item in joe_exp_list:
-    total = total + item
-print("Joe's total expense:", total)
+print("Tom's total expense : ", toms_total)
+print("Joe's total expense : ", joe_total)

@@ -1,0 +1,3 @@
+-> Machine Learning is a set of techniques to make computer better at doing things that humans (traditionally) can do better than machines.
+
+-> Machine Learning involves making machines learn things like humans do.
